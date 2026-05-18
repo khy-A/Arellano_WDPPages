@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="8">  
+    <meta name ="viewport" content="width = device-width, initial-scale=1.0">
+    <title>
+        MY blog - Web Design Principles
+    </title>
+    <style>
+        body{ 
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #111;
+            padding: 0.5 rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin:0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap ;
+            margin: 20px;
+        }
+        section {
+            flex: 2;
+            padding: 20px;
+            background: white;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        aside{
+            flex: 1;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+        }
+        footer{
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+        article{
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!--Header Section-->
+    <header>
+        <h1>Welcome to My Web Design Blog </h1>
+        <P>SHaring Knowledge about web design, HTML5, CSS and JavaScript</P>
+    </header>
+    
+    <!--Navigation Bar-->
+    <nav>
+        <a href="#"> Home </a>
+        <a href="#"> About </a>
+        <a href="#"> Blog </a>
+        <a href="#"> Contact </a>
+    </nav>
+
+    <!--Main Content-->
+    <main>
+        <!--Blog Section-->
+        <section>
+            <h2>Latest Blog Post</h2>
+            
+            <article>
+                <h3>Understanding HTML5 Semantics</h3>
+                <p>HTML5 introduced new semantics elements that help define the structure of the web pages...</p>
+                <a href="#"> Read More</a>
+            </article>
+
+            <article>
+                <h3>CSS Flexbox: A Beginnner's Guide</h3>
+                <p>Flexbox is a powerful tool for creating responsive layouts with minimal code...</p>
+                <a href="#"> Read More</a>
+            </article>
+        </section>
+        <!--Sidebar Section-->
+        <aside>
+            <h2> About Me</h2>
+            <p>Hello! I'm a web designer passionate about front-end development and user experience.</p>
+
+            <h3>Popular Topics</h3>
+            <ul>
+                <li><a href="#">HTML & CSS Basics</a></li>
+                <li><a href="#">JavaScript Fundamentals</a></li>
+                <li><a href="#">Responsive Web Design</a></li>
+            </ul>
+        </aside>
+    </main>
+    <!--Footer Section-->
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved. </p>
+    </footer>
+
+</body>
+</html>

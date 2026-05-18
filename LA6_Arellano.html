@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Student Name: Arellano, Khylle Q.-->
+<!--filename:LabAct6_Arellano.html-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with DOM, Conditional, Looping, and CSS</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            margin: 5px;
+            background-color: #97cbe9;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        li.completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+        li button {
+            margin-left: auto;
+            padding: 5px 10px;
+            background-color: #578cb8;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        li button:hover {
+            background-color: #375181;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>To-Do List</h2>
+    <ul id="todoList"></ul>
+    <button id="addTaskBtn">Add New Task</button>
+
+    <script src="LabAct6_Arellano.js"></script>
+</body>
+</html>
